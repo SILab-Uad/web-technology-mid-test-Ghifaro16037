@@ -24,4 +24,58 @@ h1 {
     color: #4a4a4a; /* Header color */
 }
 
+label {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+}
+
+input[type="number"]{
+    padding: 5px;
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+#passwordOutput {
+    font-size: 1.2em;
+    margin-top: 20px;
+    word-wrap: break-word;
+}
+
 /* Add more styles here as needed */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    button {
+        font-size: 1em;
+    }
+
+    #passwordOutput {
+        font-size: 1em;
+    }
+}
